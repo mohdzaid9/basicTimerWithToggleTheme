@@ -1,0 +1,45 @@
+#heading{
+    display: flex;
+    justify-content: space-between;
+}
+#cont {
+    display: flex;
+    justify-content: center;
+    font-size: 300px;
+    width: auto;
+    gap: 40px;
+}
+#cont h1{
+    font-size: 140px;
+}
+#cont > p {
+    border: 1px solid red;
+    height: 20px;
+}
+
+#names{
+    margin-top: -40px;
+    display: flex; 
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#btns{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-radius:5px;
+    & :hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+.lightMode{
+    background-color: white;
+    color: black;
+}
+.darkMode{
+    background-color: black;
+    color: white;
+}
